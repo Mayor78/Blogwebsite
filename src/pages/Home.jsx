@@ -1,8 +1,11 @@
 import React from 'react'
+import Post from '../components/Post'
 
 const Home = () => {
   return (
-    <div className=' text-3xl font-sans text-primary '>Home</div>
+    <div>
+         <Post/>
+    </div>
   )
 }
 

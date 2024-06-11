@@ -19,6 +19,9 @@ export default {
       spacing: {
         'section-margin-top': '6rem', // Custom margin for sections
       },
+      hover:{
+        "transition": "ease 300"
+      }
     },
   },
   plugins: [],
