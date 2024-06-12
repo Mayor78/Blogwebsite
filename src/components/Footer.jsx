@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 mt-[6rem] pt-[6rem]">
       <div>
-        <ul className="flex items-center justify-center gap-[1.5rem] mb-[4rem]">
+        <ul className=" md:grid md:grid-cols-3 lg:flex  sm:inline-grid items-center justify-center gap-[1.5rem] mb-[4rem]">
           <li className="bg-gray-700 text-white p-2 rounded-md hover:bg-white hover:text-gray-900">
             <Link to="posts/categories/:Agriculture">Agriculture</Link>
           </li>
