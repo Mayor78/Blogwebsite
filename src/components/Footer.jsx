@@ -32,7 +32,7 @@ const Footer = () => {
           </li>
         </ul>
         <div className="flex items-center border-t-2 border-gray-700 p-[1rem] text-white font-400 justify-center">
-          <p>All Right Reserved &copy; Copyright, MayorDev 2020</p>
+          <p>All Right Reserved &copy; Copyright, MayorDev 2024</p>
         </div>
       </div>
     </footer>

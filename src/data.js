@@ -42,3 +42,5 @@ export const DUMMY_POST =[
         authorID: 5
     },
 ]
+
+export const POST_CATEGORIES =["Agriculture","Business", "Education", "Entertainment","Art", "Investment", "Uncategorized","Weather"]
