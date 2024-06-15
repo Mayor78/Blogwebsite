@@ -5,9 +5,9 @@ import thumbnail from '../assets/blog/blog20.jpg'
 
 const PostDetail = () => {
   return (
-    <div className='my-auto py-[6rem] mx-[5rem] '>
+    <div className='my-auto md:py-[6rem] md:mx-[5rem] py-2 mx-2 '>
 
-          <div className='w-[60%] bg-white my-auto mx-auto py-[2rem] px-0'>
+          <div className='w-[100%] md:w[60%] md:bg-white bg-transparent my-auto mx-auto py-[2rem] px-0'>
             <div className='flex justify-between mb-5 px-10'>
                 <PostAuthor/>
                 <div className='post-detail-button flex gap-1 items-center p-5 '>

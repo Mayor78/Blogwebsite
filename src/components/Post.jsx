@@ -7,7 +7,7 @@ import { DUMMY_POST } from '../data'
 const Posts = () => {
     const [posts, SetPost] = useState(DUMMY_POST)
   return (
-    <div className='my-auto py-[6rem] mx-[5rem]'>
+    <div className='my-auto py-2 mx-1 md:py-[6rem] md:mx-[5rem]'>
        {posts.length > 0 ? <div className='grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-[4rem]'>
         {
             posts.map(({id, thumbnail, category, title,desc, authorID})=> 

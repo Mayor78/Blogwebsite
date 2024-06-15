@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const DashBoard = () => {
   const [posts, setPosts] = useState(DUMMY_POST)
   return (
-    <div className='my-auto py-[6rem] mx-[5rem]'>
+    <div className='my-auto py-2 mx-2 md:py-[6rem] md:mx-[5rem]'>
       <div>
             {
               posts.length ? <div className="container-dashboard">

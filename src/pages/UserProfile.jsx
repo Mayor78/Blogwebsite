@@ -14,36 +14,44 @@ const UserProfile = () => {
   const [confirmPassword, setConfirmPassword] = useState('')
 
   return (
-    <div className='my-auto py-[6rem] mx-[5rem] ml-28 block   place-items-center'>
-      <div className='grid place-items-center text-center'>
+    <div className='my-auto py-[6rem] mx-[5rem] ml-28  '>
+      <div className=' grid'>
+        <div className='flex justify-center'>
+
+       
           <Link to={`/myposts/ghj`} 
-          className='bg-white text-black block mr-[6rem] mb-5 h-8 p-1 rounded-[10px] hover:bg-primary font-sm'>
+          className='bg-white text-black  mr-[6rem] w-20  mb-5 h-8 p-1 rounded-[10px] hover:bg-primary font-sm'>
             My Posts
             </Link>
-            <div className='profile-details '>
+            </div>
+            <div className='profile-details flex flex-col place-items-center  '>
               <div className='avatar-wrapper w-[15rem] h-[15rem] '>
                 <div className=" border-rounded-full overflow-hidden">
                   <img src={Avatar} alt=""  className=' rounded-full h-[100%] border-8 border-white '/>
                 </div>
-                <form className='form-avatar h-[1rem]'>
+                <form className='form-avatar h-[1rem] '>
                   <input type="file"
                    name="avatar" 
                    id="avatar"
                     accept='png, jpeg,jpg' 
                     className='hidden'
                     onChange={e =>setAvata(e.target.files[0])} />
-                  <label htmlFor="avatar " className=''>
-                    <FaEdit className='text-2xl absolute  md:top-1/2  lg:top-1/2 top-[17rem] ' />
+                  <label htmlFor="avatar " className=' absolute right-[47%] top-[63%] '>
+                    <FaEdit className='text-2xl  ' />
                   </label>
                 </form>
                    <button 
-                   className='profile-avatar  absolute md:top-1/2  lg:top-1/2 top-64 bg-primary text-white  h-8 p-1 rounded-full hover:bg-red-700 font-sm'>
+                   className='profile-avatar absolute right-[47%] top-[63%]  bg-primary text-white  h-8 p-1 rounded-full hover:bg-red-700 font-sm'>
                     <FaCheck className='text-2xl' />
                    </button>
               </div>
-                  <h1 className='absolute  md:top-1/2  lg:top-1/2 top-64 mt-12 font-bold text-[20px]  font-serif'>Abraham Mayowa</h1>
+                  <h1 className=' font-bold text-[20px] absolute top-[25rem]  left-[7rem] font-serif'>Abraham Mayowa</h1>
                   
             </div>
+            <div className='w-full md:w-[60%] md:mx-64 mx-0 '>
+
+           
+
             <form action="" className='form-profile flex flex-col gap-[0.8rem] mr-10'>
                       <p className="form-error bg-red-400 py-2 font-serif backdrop:blur-md shadow-md text-balance text-white w-auto">this is an error message</p>
                       <input type="text"
@@ -94,6 +102,7 @@ const UserProfile = () => {
 
                           
                     </form>
+                    </div>
 
       </div>
 
