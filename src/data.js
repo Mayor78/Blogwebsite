@@ -43,4 +43,8 @@ export const DUMMY_POST =[
     },
 ]
 
+
 export const POST_CATEGORIES =["Agriculture","Business", "Education", "Entertainment","Art", "Investment", "Uncategorized","Weather"]
+
+
+
