@@ -30,10 +30,10 @@ const Header = () => {
   };
 
   return (
-    <nav className='sticky top-0 w-full h-20 border-b-4 bg-slate-200 z-50 shadow-md backdrop-blur-lg'>
+    <nav className='sticky top-0 w-full h-20 border-b-4 bg-white-50 z-50 shadow-md backdrop-blur-lg'>
       <div className="container mx-auto flex justify-between items-center h-full">
         <Link to="/" className='w-12 h-12' onClick={handleLinkClick}>
-          <img src="https://i.ibb.co/0222222/logo.png" alt="logo" className="nav_logo_img" />
+          <img src="https://i.ibb.co/0222222/logo.png" alt="logo" className="nav_logo_img mx-4 md:mx-0" />
         </Link>
         {navbar && (
           <ul className="hidden md:flex items-center space-x-8">
@@ -49,7 +49,7 @@ const Header = () => {
           className='md:hidden flex items-center mx-1'
           onClick={() => setNavbar(!navbar)}
         >
-          {navbar ? <AiOutlineClose className='cursor-pointer' /> : <FaBars className='' />}
+          {navbar ? <AiOutlineClose className='cursor-pointer mx-3' /> : <FaBars className='mx-3' />}
         </motion.button>
       </div>
       {navbar && (

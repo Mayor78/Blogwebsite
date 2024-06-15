@@ -17,7 +17,7 @@ const Login = () => {
             <div className='bg-white  shadow-2xl'> 
               <h2 className='font-bold text-2xl flex justify-center items-center'>Login</h2>
               <form className='  justify-center inline-block' >
-                <p className='error mt-3 mx-2 bg-red-500 text-white p-1 font-extralight '> this is an error message</p>
+                <p className='error mt-3 mx-2 bg-red-500 text-white p-1 font-extralight flex place-content-center '> this is an error message</p>
                  <input type='email'
                  placeholder='Email' 
                  name='email' value={userData.email} 
